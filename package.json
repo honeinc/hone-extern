@@ -1,0 +1,25 @@
+{
+  "name": "hone-extern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gulp --sshkey=$KEY"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honeinc/hone-extern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honeinc/hone-extern/issues"
+  },
+  "homepage": "https://github.com/honeinc/hone-extern",
+  "dependencies": {
+    "minimist": "~1.1.0",
+    "rsyncwrapper": "~0.4.1",
+    "gulp": "~3.8.10"
+  }
+}
