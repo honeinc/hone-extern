@@ -1,6 +1,8 @@
 'use strict';
 
-var gulp = require( 'gulp' );
+var gulp = require( 'gulp' ); 
+// don't have gulp globally no problem
+// KEY=/home/you/.ssh/cloud npm run publish
 var minimist = require( 'minimist' );
 var rsync = require( 'rsyncwrapper' ).rsync;
 
