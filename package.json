@@ -21,5 +21,8 @@
     "minimist": "~1.1.0",
     "rsyncwrapper": "~0.4.1",
     "gulp": "~3.8.10"
+  },
+  "devDependencies": {
+    "sauce-tap-runner": "^0.1.1"
   }
 }
